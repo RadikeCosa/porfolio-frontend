@@ -1,6 +1,38 @@
 .header {
   display: flex;
-  background-color: black;
-  height: 10vh;
+
+  height: 20vh;
   justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.logo-ap {
+  width: 10vw;
+  margin: 10px 10px 10px 10px;
+  /*  background-color: black; */
+}
+.arg-pro {
+  width: 10vw;
+  margin: 10px 10px 10px 10px;
+  border: 1px solid black;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.link {
+  padding: 10px;
+}
+
+.social-container {
+  display: flex;
+  width: 20vw;
+  justify-content: space-around;
+}
+.social {
+  width: 4vw;
+  background-color: black;
+  border-radius: 60%;
 }

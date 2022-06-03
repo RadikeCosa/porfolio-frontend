@@ -1,0 +1,18 @@
+.home {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cuadrado {
+  height: 80%;
+  width: 80%;
+  background-color: grey;
+  background-image: url("../../../assets/trabajando.jpg");
+  background-size: cover;
+  border: 1px solid black;
+}
+.imagen {
+  width: 10vw;
+  height: 10vh;
+}
