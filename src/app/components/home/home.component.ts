@@ -7,14 +7,16 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
+  miPorfolio: any;
   ramiro: any;
-
   constructor(private datosPorfolio: PorfolioService) {}
 
   ngOnInit(): void {
     this.datosPorfolio.obtenerDatos().subscribe((data) => {
-      this.ramiro = data;
-      console.log(this.ramiro.name);
+      this.miPorfolio = data;
+      this.ramiro = this.miPorfolio[0];
+      console.log(this.ramiro);
+      console.log(this.ramiro.nombre);
     });
   }
 }

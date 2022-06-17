@@ -10,6 +10,8 @@ export class PorfolioService {
 
   obtenerDatos(): Observable<any> {
     console.log('el servicio porfolio esta corriendo');
-    return this.http.get('http://localhost:8080/personas/traer');
+    return this.http.get(
+      'https://porfolio-radike.herokuapp.com/personas/traer'
+    );
   }
 }
