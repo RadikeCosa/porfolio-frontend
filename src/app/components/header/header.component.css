@@ -7,7 +7,7 @@
 .header {
   display: flex;
   height: 20vh;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: #0a192f;
   border-radius: 5px;
@@ -15,6 +15,7 @@
 .logo-ap {
   justify-content: center;
   align-items: center;
+  margin-left: 2rem;
 }
 
 a {
@@ -29,6 +30,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 3rem;
 }
 .main {
   height: 80vh;
